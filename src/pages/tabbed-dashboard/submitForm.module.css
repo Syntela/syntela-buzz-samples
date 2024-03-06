@@ -1,0 +1,57 @@
+/* submitForm.module.css */
+.appContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  gap: 1em;
+}
+
+.verticalTabContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 12em;
+  padding-right: 10px;
+  border-right: 2px solid #f0f0f0;
+}
+
+.verticalTabContainer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Set the width as a percentage of its container */
+  height: 5%; /* Set the height as a percentage of its container */
+  background-color: #f0f0f0;
+  border: none;
+  margin-bottom: 2%; /* Add a margin between buttons as a percentage */
+  cursor: pointer;
+  padding: 1%; /* Add padding inside the buttons as a percentage */
+  font-size: 80%;
+}
+
+
+.verticalTabContainer button:focus {
+  outline: none; /* Remove the default focus outline */
+}
+
+.widgetContainer {
+  height: 50%;
+  resize: both;
+  overflow: hidden;
+}
+
+.badge {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}
